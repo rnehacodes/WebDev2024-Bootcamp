@@ -1,0 +1,18 @@
+body {
+    background-color: black;
+}
+h1 {
+    color: aliceblue;
+}
+#div1 {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+    text-align: center;
+    color: aliceblue;
+    font-family: Libre Baskerville;
+}
+img {
+    width: 100%;
+    border: 5px solid white;
+}
