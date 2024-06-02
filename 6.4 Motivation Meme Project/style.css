@@ -3,11 +3,12 @@ body {
 }
 h1 {
     color: aliceblue;
+    font-size: 3rem;
 }
 #div1 {
     width: 50%;
     margin-left: 25%;
-    margin-top: 5%;
+    margin-top: 25%;
     text-align: center;
     color: aliceblue;
     font-family: Libre Baskerville;
