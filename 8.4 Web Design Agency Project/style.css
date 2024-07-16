@@ -6,27 +6,51 @@ body {
   flex-direction: column;
   min-height: 95vh;
 }
-.logo {
-  display: block;
-  padding: 10px;
+
+.card {
+  display: inline;
+  width: 30%;
 }
 
 span {
   color: #191970;
 }
 
-.main {
-  flex: 1;
+.left-card { 
+  float: left;
+}
+
+.right-card {
+  float: right;
+}
+
+h2 {
+  position: relative;
+  left: 50px;
+  width: 100%;
+}
+
+.card-text {
+  position: relative;
+  left: 50px;
+}
+
+.tile-image {
+  height: 200px;
+  float: left;
+}
+
+.right-card {
+  float: right;
 }
 
 h1 {
   font-size: 5rem;
-  display: inline;
+  display: inline-block;
 }
 
 footer {
   text-align: right;
   color: midnightblue;
-
+  clear: both;
 }
-
