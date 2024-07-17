@@ -7,50 +7,76 @@ body {
   min-height: 95vh;
 }
 
-.card {
-  display: inline;
-  width: 30%;
+.main {
+  flex: 1;
+}
+
+@media (max-width: 680px) {
+  .logo {
+    width: 100px;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+}
+
+h1 {
+  font-size: 5rem;
 }
 
 span {
   color: #191970;
 }
 
-.left-card { 
-  float: left;
+.main > div {
+  display: inline-block;
+  width: 45%;
 }
 
-.right-card {
-  float: right;
-}
-
-h2 {
-  position: relative;
+.main h2 {
   left: 50px;
-  width: 100%;
+  display: block;
 }
 
 .card-text {
-  position: relative;
   left: 50px;
+  display: block;
 }
 
-.tile-image {
-  height: 200px;
+p {
+  font-size: 1em;
+}
+
+.card {
+  width: 45%;
+}
+
+.left {
   float: left;
 }
 
-.right-card {
+.right {
   float: right;
 }
 
-h1 {
-  font-size: 5rem;
-  display: inline-block;
+.card > img {
+  float: left;
+  height: 200px;
+  margin-right: 50px;
 }
 
-footer {
+footer{
   text-align: right;
   color: midnightblue;
-  clear: both;
+  position: relative;
+  top: 50%;
 }
