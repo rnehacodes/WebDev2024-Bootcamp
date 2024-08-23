@@ -11,17 +11,41 @@
     <style>
       body {
         font-family: "Sono", sans-serif;
+        font-weight: bold;
       }
       .pricing-container {
         margin-left: 25%;
         margin-right: 25%;
-        display: flex;
+        display: inline-flex;
         flex-direction: column;
         align-items: center;
+        gap: 10px;
       }
       .pricing-plan {
-        background-color: azure;
+        background-color: #f1f1f2;
+        text-align: center;
+        padding: 10px;
         margin: 10px;
+      }
+      .pricing-plan > * {
+        margin: 5px;
+      }
+      .plan-button {
+        font-family: "Sono", sans-serif;
+        color: white;
+        background-color: #ff6600;
+        border-radius: 10%;
+      }
+      .plan-price {
+        font-size: 3rem;
+      }
+      .plan-title {
+        font-size: 1.5rem;
+      }
+      ul.plan-features {
+        list-style-type: none;
+        font-weight: normal;
+        margin-right: 25%;
       }
 
 
