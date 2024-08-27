@@ -12,27 +12,34 @@
       body {
         font-family: "Sono", sans-serif;
         font-weight: bold;
+        /* height: 100vh; */
       }
       .pricing-container {
-        margin: 200px 100px;
-        display: inline-flex;
+        display: flex;
         flex-direction: row;
-        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        gap: 2rem;
       }
       .pricing-plan {
+        flex: 1;
         background-color: #f1f1f2;
         text-align: center;
-        padding: 10px;
-        margin: 10px;
+        width: 400px;
+        border-radius: 5px;
+        padding: 20px;
+        gap: 10px;
       }
       .pricing-plan > * {
-        margin: 5px;
+        margin: 10px;
       }
       .plan-button {
-        font-family: "Sono", sans-serif;
         color: white;
         background-color: #ff6600;
-        border-radius: 10%;
+        border-radius: 5px;
+        border: none;
+        padding: 10px;
       }
       .plan-price {
         font-size: 3rem;
@@ -40,14 +47,18 @@
       .plan-title {
         font-size: 1.5rem;
       }
-      ul.plan-features {
-        list-style-type: none;
+      .plan-features {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      .plan-features li {
         font-weight: normal;
-        margin-right: 25%;
+        margin-bottom: 20px;
       }
 
       /* Hint: What can you do with a media query and flexbox? */
-      @media (max-width: 1250px) {  
+      @media (max-width: 1250px) {
         .pricing-container {
           margin: 10% 15%;
           display: inline-flex;
